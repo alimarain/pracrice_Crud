@@ -92,7 +92,7 @@ showDialog(
         ),
         ElevatedButton(
           onPressed: () {
-            addContact(index, nameController.text,numberController.text);
+            addContact(nameController.text,numberController.text);
           },
           child: Text("Submit"),
         ),
